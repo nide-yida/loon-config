@@ -1,0 +1,8 @@
+# Apple Core Services (Direct)
+
+host-suffix, apple.com
+host-suffix, icloud.com
+host-suffix, itunes.apple.com
+host-suffix, appstore.com
+host-suffix, apps.apple.com
+host-suffix, apple-cloudkit.com

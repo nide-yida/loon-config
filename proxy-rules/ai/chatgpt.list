@@ -1,4 +1,9 @@
+# =========================
+# ChatGPT Only
+# =========================
+
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
+DOMAIN,chat.openai.com
+DOMAIN,api.openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com

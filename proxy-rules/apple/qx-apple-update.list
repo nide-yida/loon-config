@@ -1,0 +1,5 @@
+# Apple System Update (Optional Reject)
+
+host, mesu.apple.com
+host, gdmf.apple.com
+host, updates-http.cdn-apple.com

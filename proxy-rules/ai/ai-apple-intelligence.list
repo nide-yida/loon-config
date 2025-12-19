@@ -1,26 +1,16 @@
-# =========================
-# Apple Intelligence (Siri / Apple AI)
-# Author: nide-yida
-# =========================
-
-# ---- Apple Intelligence Core ----
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
+# ---- Apple Intelligence 核心精细化 ----
+DOMAIN,gateway.icloud.com
+DOMAIN,api.apple-cloudkit.com
+DOMAIN,pku.apple.com
+DOMAIN-KEYWORD,apple-relay
+DOMAIN-KEYWORD,apple-cloudkit
 DOMAIN-SUFFIX,apple-cloudkit.com
 
-# Siri / Apple Intelligence backend
+# Siri / Apple AI 辅助
 DOMAIN,guzzoni.apple.com
-DOMAIN,gateway.icloud.com
 DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,apps.mzstatic.com
 
-# Apple Private Relay (AI 必须)
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-
-# ---- OpenAI (Apple Intelligence uses ChatGPT) ----
+# ChatGPT 深度集成
 DOMAIN-SUFFIX,openai.com
-DOMAIN,api.openai.com
-DOMAIN,chat.openai.com
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com

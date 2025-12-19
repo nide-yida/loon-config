@@ -1,12 +1,22 @@
 # =========================
-# Google Gemini
+# Google Gemini / Google AI (Precision)
 # =========================
 
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleusercontent.com
-
-# Gemini specific
+# --- Gemini Web & App ---
 DOMAIN,gemini.google.com
 DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+
+# --- AI Core Backend (精准匹配核心链路) ---
+# 仅针对 AI 生成内容的 API，不影响普通 Google API
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,alembic
+
+# --- DeepMind & Image Services ---
 DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN,gemini-images.googleusercontent.com
+
+# --- Google AI SDK ---
+DOMAIN-SUFFIX,google-measurement.com

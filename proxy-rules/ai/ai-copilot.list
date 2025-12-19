@@ -1,9 +1,18 @@
 # =========================
-# Microsoft Copilot
+# Microsoft Copilot (Precision)
 # =========================
 
+# --- Copilot Web & App ---
 DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,msedge.net
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com/search?q=Bing+AI
+DOMAIN,www.bing.com/chat
+
+# --- AI Core Backend ---
+DOMAIN-SUFFIX,bing-shopping.microsoft-internal.com
+DOMAIN-KEYWORD,copilot-proxy
+
+# --- 特定 Edge AI 功能 ---
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,bingvisrat.com
+DOMAIN-SUFFIX,edgeservices.microsoft.com

@@ -1,4 +1,9 @@
+# =========================
+# Microsoft Copilot
+# =========================
+
 DOMAIN,copilot.microsoft.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,openai.azure.com

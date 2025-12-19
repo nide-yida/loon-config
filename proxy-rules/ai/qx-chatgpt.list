@@ -1,0 +1,7 @@
+# ChatGPT / OpenAI (Quantumult X)
+
+host-suffix, openai.com
+host-suffix, chatgpt.com
+host-suffix, oaistatic.com
+host-suffix, oaiusercontent.com
+host, api.openai.com

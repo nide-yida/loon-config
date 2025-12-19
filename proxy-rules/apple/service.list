@@ -1,14 +1,11 @@
-# Apple Services (Non-System, Non-Update)
-
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,appleicloud.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-
-DOMAIN-SUFFIX,appstore.com
+# ---- Apple Services 常规直连 ----
+# 移除 apple.com 后缀，改用子域名防止冲突
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
-
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud-content.com
+# 地图与天气
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,weather-edge.apple.com

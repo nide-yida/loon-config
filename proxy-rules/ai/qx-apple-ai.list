@@ -1,4 +1,7 @@
-# Apple Intelligence / Apple AI (Experimental)
-
-host-suffix, ai.apple.com
-host-suffix, gpt.apple.com
+# Apple Intelligence / Siri + ChatGPT
+host, assistant.apple.com, AppleAI
+host, assistant-chat.apple.com, AppleAI
+host, assistant-assets.apple.com, AppleAI
+host, gateway.icloud.com, AppleAI
+host, api.apple-cloudkit.com, AppleAI
+host, query.content-storage.apple.com, AppleAI

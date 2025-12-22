@@ -2,15 +2,15 @@
 DOMAIN,gateway.icloud.com
 DOMAIN,api.apple-cloudkit.com
 DOMAIN,pku.apple.com
-DOMAIN-KEYWORD,apple-relay
-DOMAIN-KEYWORD,apple-cloudkit
+# 关键：AI 专用分流
+DOMAIN,apple-magicserver.com
 DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-KEYWORD,apple-relay
 
-# Siri / Apple AI 辅助
+# Siri / 语音服务
 DOMAIN,guzzoni.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
 
-# ChatGPT 深度集成
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
+# 苹果内部推理服务 (重要)
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,blobstore.apple.com
